@@ -3,8 +3,7 @@ package com.exemple.eq;
 public class Principal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// Pau no em tocaràs el codi
+		System.out.println("funciona");
 	}
 
 }
