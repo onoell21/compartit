@@ -41,5 +41,14 @@ public class Polinomi2nGrau {
 			return 2;
 		}
 	}
+	
+	public float arrealrReal1(){
+		return (float) Math.sqrt(calcularDiscrimant());
+	}
+	
+	public float arrealrReal2(){
+		return - ((float) Math.sqrt(calcularDiscrimant()));
+		//això és un canvi
+	}
 
 }
