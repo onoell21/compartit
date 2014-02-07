@@ -3,7 +3,7 @@ package com.exemple.eq;
 public class Principal {
 
 	public static void main(String[] args) {
-		System.out.println("funciona molt, funciona.");
+		System.out.println("funciona molt, funciona més.");
 	}
 
 }
