@@ -26,5 +26,20 @@ public class Polinomi2nGrau {
 		
 	}
 	
+	public boolean arrelsReals(){
+		if(calcularDiscrimant()>=0){
+			return true;
+		} else{
+			return false;
+		}
+	}
+	
+	public int nombreSolucions(){
+		if(calcularDiscrimant()==0){
+			return 1;
+		} else{
+			return 2;
+		}
+	}
 
 }
