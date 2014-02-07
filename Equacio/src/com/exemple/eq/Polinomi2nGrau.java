@@ -12,6 +12,19 @@ public class Polinomi2nGrau {
 		this.c = c;
 	}
 	
+	public int calcularDiscrimant(){
+		
+		return b*b - (4*a*c);
+		
+	}
+	
+	public String toString(){
+	
+		String total = Integer.toString(a) + "x2 + " + Integer.toString(b) + "x + " + Integer.toString(c);
+		
+		return total;
+		
+	}
 	
 
 }
