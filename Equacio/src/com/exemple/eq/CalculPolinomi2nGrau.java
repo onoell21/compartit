@@ -17,6 +17,7 @@ public class CalculPolinomi2nGrau {
 		c = s.nextInt();
 		
 		Polinomi2nGrau poli = new Polinomi2nGrau(a, b, c);
+		System.out.println(poli);
 		
 	}
 
