@@ -19,6 +19,12 @@ public class CalculPolinomi2nGrau {
 		Polinomi2nGrau poli = new Polinomi2nGrau(a, b, c);
 		System.out.println(poli);
 		
+		if(!poli.arrelsReals()){
+			System.out.println("No té solució real.");
+		}
+		
+		System.out.println(" hoñls " + poli.calcularDiscrimant());
+		
 	}
 
 }

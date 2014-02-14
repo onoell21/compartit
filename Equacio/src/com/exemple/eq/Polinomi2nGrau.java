@@ -50,5 +50,7 @@ public class Polinomi2nGrau {
 		return - ((float) Math.sqrt(calcularDiscrimant()));
 		//això és un canvi
 	}
+	
+	
 
 }
