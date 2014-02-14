@@ -23,7 +23,17 @@ public class CalculPolinomi2nGrau {
 			System.out.println("No té solució real.");
 		}
 		
+		if (poli.nombreSolucions() == 1){
+			System.out.println("només té una solució");
+			System.out.println("unica opció " + poli.arrealrReal1());
+		} else {
+			System.out.println("té dues solucions");
+			System.out.println("primera opció " + poli.calcularfinal1());
+			System.out.println("segona opció " + poli.calcularfinal2());
+		}
 		System.out.println(" hoñls " + poli.calcularDiscrimant());
+		
+		
 		
 	}
 
