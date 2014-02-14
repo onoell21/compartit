@@ -54,6 +54,7 @@ public class Polinomi2nGrau {
 	public float calcularfinal1(){
 		return (-b+arrealrReal1())/(2*a);
 	}
+	
 	public float calcularfinal2(){
 		return (-b+arrealrReal2())/(2*a);
 	}
